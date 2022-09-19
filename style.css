@@ -1,0 +1,830 @@
+* {
+    box-sizing: border-box;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+     position:absolute;
+}
+.section1{
+   height:95.5vh;
+}
+
+
+header.container {
+    display: flex;
+    
+    position: absolute;
+    justify-content: space-around;
+}
+.container {
+    width: 230%;
+    height: 100vh;
+}
+.head {
+    padding: 0px;
+    margin: 47px;
+    margin-bottom: -20px;
+    margin-left: -45px;
+    margin-top: 39px;
+    
+}
+
+.nav-item {
+    font-size:17px;
+    text-decoration: none;
+    margin-right: -205px;
+    margin-left:236px;
+    color: rgba(255,255,255);
+    font-family: Helvetica;
+}
+
+.banner-container {
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-image: url("./images/background.jpg");
+    
+    display: flex;
+    margin: 0px;
+}
+header {
+    width: 100%;
+    height: 106px;
+    background: linear-gradient(rgb(0,0,0,0.5),rgba(255,255,255,1));
+}
+
+.logo {
+    background: url("./images/logo.png");
+    background-size: 78px;
+    margin:0px;
+    margin-top:-19px;
+    margin-right: -489px;
+    background-repeat: no-repeat;
+    float: right;
+    cursor: pointer;
+    padding: 0px;
+    opacity: 1;
+    width: 71px;
+    height: 63px;
+}
+
+.location-icon {
+    background: url("./images/location icon.png");
+    background-size: 14px;
+    margin-top: -2px;
+    margin-right: -337px;
+    background-repeat: no-repeat;
+    float: right;
+    cursor: pointer;
+    padding: 0px;
+    opacity: 1;
+    width: 23px;
+    height: 29px;
+}
+.shop-icon {
+    background: url("./images/shop-icon.png");
+    background-size: 25px;
+    margin-top: -2px;
+    margin-right: -287px;
+    background-repeat: no-repeat;
+    float: right;
+    cursor: pointer;
+    padding: 0px;
+    opacity: 1;
+    width:38px;
+    height: 28px;
+}
+.search-icon {
+    background: url("./images/search-13-48.png");
+    background-size: 21px;
+    margin-top: -2px;
+    margin-right: -395px;
+    background-repeat: no-repeat;
+    float: right;
+    cursor: pointer;
+    padding: 0px;
+    opacity: 1;
+    width:30px;
+    height:29px;
+}
+.text {
+    font-size: 17px;
+    text-decoration: none;
+    margin-top:115px;
+    margin-right:251px;
+    margin-left: 239px;
+    color: rgba(255,255,255);
+    font-family: Helvetica;
+    width:50%;
+    height:23px;
+    cursor:default;
+}
+
+.maintext {
+    font-size: 50px;
+    text-decoration: none;
+    margin-top: 32px;
+    margin-left: 70px;
+    color: rgba(255,255,255);
+    font-family: Arial,Helvetica,sans-serif;
+    width: 340px;
+    height: 124px;
+    position: absolute;
+    cursor:default;
+
+   
+}
+.knowmore {
+    display: block;
+    margin: 0px;
+    color: rgba(255,255,250);
+    padding: 15px;
+    margin-left: 121px;
+    margin-top: 170px;
+    background-color: #1c69d4;
+    border-color: #1c69d4;
+    text-decoration: none;
+    width: 284px;
+    height: 54px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+    .knowmore:hover {
+        background-color: #0653b6;
+        border-color: #0653b6;
+    }
+.buynow {
+    display:block;
+    margin: 0px;
+    color: rgba(255,255,250);
+    padding: 18px;
+    margin-left: 121px;
+    margin-top: 10px;
+    background-color: transparent;
+    text-decoration: none;
+    width: 284px;
+    height: 54px;
+    font-size: 16px;
+    text-align: center;
+    border:3px solid white;
+    cursor:pointer;
+    
+}
+    .buynow:hover {
+        border-color: darkgray;
+        color:darkgray;
+    }
+
+   
+}
+
+/*second page*/
+
+.section2{
+    display:flex;
+    position:absolute;
+    height:50%;
+
+}
+.image-container{
+    width:100%;
+    height:87vh;
+   
+    
+
+}
+.image-container img{
+    width:50%;
+    background:no-repeat;
+    float:left;
+    padding:3px;
+}
+
+
+.second-text{
+    text-decoration:none;
+    position:absolute;
+    font-size:35px;
+    text-decoration-thickness:0px;
+    top:45px;
+    left:40px;
+    color:white;
+    margin:0px;
+    cursor:default;
+}
+.second1{
+    position:relative;
+    
+}
+.knowmore2 {
+    position: absolute;
+    display: block;
+    color: rgba(255,255,250);
+    margin-left: 36px;
+    margin-top: 97px;
+    background-color: transparent;
+    text-decoration: none;
+    width: 284px;
+    height: 54px;
+    font-size: 16px;
+    border: 3px solid white;
+    padding:20px;
+    text-align:center;
+    cursor:pointer;
+
+}
+    .knowmore2:hover {
+        border-color: darkgray;
+        color: darkgray;
+    }
+    .second2 {
+    position:relative;
+}
+
+.second-text2 {
+    text-decoration: none;
+    position: absolute;
+    font-size: 34px;
+    text-decoration-thickness: 0px;
+    top: 48px;
+    right: 72px;
+    color: white;
+    margin: 0px;
+    cursor: default;
+}
+.knowmore22 {
+    position: absolute;
+    display: block;
+    color: rgba(255,255,250);
+    right: 430px;
+    margin-top: 97px;
+    background-color: transparent;
+    text-decoration: none;
+    width: 284px;
+    height: 54px;
+    font-size: 16px;
+    border: 3px solid white;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .knowmore22:hover {
+        border-color: darkgray;
+        color: darkgray;
+    }
+.section3 { 
+    position:absolute;
+    width:100%;
+    top:1020px;
+}
+
+.thirdimage {
+    width: 100%;  
+}
+.continuenow {
+    display: block;
+    margin: 0px;
+    color: rgba(255,255,250);
+    padding: 15px;
+    left: 680px;
+    top: -174px;
+    background-color: #1c69d4;
+    border-color: #1c69d4;
+    text-decoration: none;
+    width: 285px;
+    height: 54px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+    .continuenow:hover {
+        background-color: #0653b6;
+        border-color: #0653b6;
+    }
+.section3text {
+    font-size: 17px;
+    text-decoration: none;
+    margin-top:-62px;
+    margin-left: 171px;
+    
+    cursor:pointer;
+    
+}
+.series {
+    color: #666;
+    border-bottom-color: transparent;
+    margin-right: 30px;
+}
+.series:hover{
+   color:black;
+}
+.bodytypes {
+    color: #666;
+}
+.bodytypes:hover{
+    color:black;
+}
+.line {
+    margin: 40px 0;
+    width:80%;
+    margin-left:154px;
+    margin-top: 27px;
+}
+.section3text2 {
+    color: black;
+    display: flex;
+    margin-left: 186px;
+    cursor: pointer;
+    
+}
+.number {
+    margin-right: 48px;
+    color: #666;
+}
+    .number:hover {
+        color: black;
+    }
+
+.modelimages{
+    margin-left:151px;
+    display:flex;
+    cursor:pointer;
+   
+    
+}
+.first {
+    margin-top: -20px;
+    width:303px;
+    height:183px;
+    
+}
+.button {
+    display: flex;
+    margin-left: 708px;
+    margin-top: -162px;
+}
+.new{
+    display:block;
+    color:white;
+    background-color:black;
+    text-align:center;
+    margin-right:250px;
+}
+.modeltext{
+    display:flex;
+    margin-left:169px;
+    margin-top:137px;
+    font-size:20px;
+
+}
+.modelname1{
+    margin-right:214px;
+    margin-top:10px;
+}
+.modelname2 {
+    margin-right: 121px;
+    margin-top: 10px;
+}
+.modelname3 {
+    margin-right: 77px;
+    margin-top: 10px;
+}
+.modelname4 {
+    margin-right: 151px;
+    margin-top: 10px;
+}
+.fueloption{
+    display:flex;
+    margin-left:170px;
+    font-size:13px;
+}
+.model1fuel{
+    margin-right:184px;
+    margin-top:-13px;
+}
+.model2fuel {
+    margin-right:187px;
+    margin-top:-13px;
+
+}
+.model3fuel {
+    margin-right:219px;
+    margin-top:7px;
+
+}
+.model4fuel {
+    margin-top:-14px;
+
+}
+.modelprice{
+    display:flex;
+    margin-left:169px;
+}
+.model1price{
+    margin-top:-12px;
+    margin-right:112px;
+}
+.model2price {
+    margin-top: -12px;
+    margin-right: 119px;
+}
+.model3price {
+    margin-top: 8px;
+    margin-right: 147px;
+}
+.model4price {
+    margin-top: -12px;
+    margin-right: 10px;
+}
+.configure{
+    display:flex;
+    margin-left:169px;
+    cursor:pointer;
+    margin-top:-22px;
+}
+.model1configure{
+    margin-right:128px;
+    color:black;
+}
+.model1configure:hover{
+    color:blue;
+}
+.model2configure{
+    margin-right:132px;
+}
+.model2configure:hover {
+    color: blue;
+}
+    .model3configure {
+    margin-top:16px;
+    margin-right: 130px;
+}
+.model3configure:hover {
+    color: blue;
+}
+.model4configure {
+    margin-left:32px;
+}
+.model4configure:hover {
+    color: blue;
+}
+
+.searchandbuy{
+    display: flex;
+    margin-left: 169px;
+    margin-top: -6px;
+    cursor:pointer;
+}
+.model1search{
+    margin-right:730px;
+}
+.model1search:hover{
+    color:blue;
+}
+
+.model4search{
+    color:black;
+}
+.model4search:hover {
+    color: blue;
+}
+.showmore {
+    display: flex;
+    margin-left: 169px;
+    margin-top: -6px;
+    cursor: pointer;
+}
+.model1showmore {
+    margin-top:15px;
+    margin-right: 193px;
+}
+.model1showmore:hover{
+    color:blue;
+}
+.model2showmore {
+    margin-top:-11px;
+    margin-right: 198px;
+}
+.model2showmore:hover {
+    color: blue;
+}
+.model3showmore {
+    margin-top: 2px;
+    margin-right: 228px;
+}
+.model3showmore:hover {
+    color: blue;
+}
+.model4showmore {
+    margin-top: 15px;
+    margin-right: 228px;
+}
+.model4showmore:hover {
+    color: blue;
+}
+
+.model2image{
+    display:flex;
+    width:100%;
+    margin-left:149px;
+}
+.model2text {
+    display: flex;
+    margin-left: 169px;
+    margin-top: 137px;
+    font-size: 20px;
+}
+.modelname5 {
+    margin-right: 214px;
+    margin-top: -128px;
+}
+.modelname6 {
+    margin-right: 214px;
+    margin-top: -128px;
+}
+.model5fuel {
+    margin-right: 241px;
+    margin-top: -90px;
+}
+.model6fuel {
+    margin-top: -90px;
+}
+.model5price {
+    margin-top: -65px;
+    margin-right: 112px;
+}
+.model6price {
+    margin-top: -65px;
+    margin-right: 112px;
+}
+.model5configure {
+    margin-right: 128px;
+    color: black;
+}
+
+    .model5configure:hover {
+        color: blue;
+    }
+
+.model6configure {
+    margin-right: 132px;
+}
+
+    .model6configure:hover {
+        color: blue;
+    }
+.model5search {
+    margin-top:16px;
+    margin-right: 104px;
+}
+
+    .model5search:hover {
+        color: blue;
+    }
+
+.model6search {
+    margin-top:15px;
+    color: black;
+}
+
+    .model6search:hover {
+        color: blue;
+    }
+
+.model5showmore {
+    margin-top: 15px;
+    margin-right: 193px;
+}
+
+    .model5showmore:hover {
+        color: blue;
+    }
+
+.model6showmore {
+    margin-top: 15px;
+    margin-right: 198px;
+}
+
+    .model6showmore:hover {
+        color: blue;
+    }
+    .suggestion{
+        margin-top:21px;
+    }
+    .modelsuggest{
+        
+        font-size:32px;
+        margin-left:169px;
+        
+    }
+    .suggestionimage{
+        margin-left:107px;
+        width:84%;
+    }
+.configurenow {
+    display:flex;
+    color: black;
+    margin-left: -97px;
+    margin-top: 10px;
+    background-color: transparent;
+    text-decoration: none;
+    height: 54px;
+    font-size: 16px;
+    text-align: center;
+    width:100%;
+    cursor: pointer;
+}
+.configurenow1 {
+    display: block;
+    padding:15px;
+    width:50%;
+    height:58px;
+    margin-left:260px;
+    margin-right: 28px;
+    border: 2px solid black;
+}
+.configurenow1:hover{
+    border:3px solid black;
+}
+.configurenow2 {
+    display: block;
+    width:50%;
+    padding: 15px;
+    height: 58px;
+    margin-right: 31px;
+    border: 2px solid black;
+}
+.configurenow2:hover {
+    border: 3px solid black;
+}
+.configurenow3 {
+    display: block;
+    width: 50%;
+    padding: 15px;
+    height: 58px;
+    border: 2px solid black;
+    margin-right: 100px;
+}
+.configurenow3:hover {
+    border: 3px solid black;
+}
+
+.section4textimage {
+    width: 84%;
+    margin-left: 78px;
+    margin-top: 9px;
+}
+.screenimg{
+    width:100%;
+    cursor:pointer;
+}
+.usedcarsimage {
+    width: 84%;
+    margin-left: 78px;
+    margin-top: 9px;
+}
+.browsethecompleterange {
+    position: relative;
+    position: absolute;
+    bottom: 829px;
+    left: 171px;
+}
+.browsethecompleterange:hover{
+    color:blue;
+}
+.knowMore {
+    position: absolute;
+    bottom:px;
+    right: 672px;
+}
+.knowMore:hover{
+    color:blue;
+}
+
+.financialimg{
+    width:95%;
+}
+.findoutmore {
+    position: absolute;
+    bottom: 667px;
+    right: 1225px;
+}
+.findoutmore:hover{
+    color:blue;
+}
+
+.exploremore {
+    position: absolute;
+    bottom:667px;
+    right: 657px;
+}
+.exploremore:hover{
+    color:blue;
+}
+.byyourside{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    font-size: 29px;
+    margin-left: 159px;
+}
+.bmwservice{
+    margin-left:161px;
+   
+}
+.section4{
+    display:flex;
+    margin-left:210px;
+    width:70%;
+    margin-top:35px;
+    justify-content:space-between;
+}
+.firsttext {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+    .firsttext:hover {
+        color: black;
+    }
+.firsttext {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+    .firsttext:hover {
+        color: black;
+    }
+.secondtext {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+    .secondtext:hover {
+        color: black;
+    }
+.thirdtext {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+    .thirdtext:hover {
+        color: black;
+    }
+.fourthtext {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+    .fourthtext:hover {
+        color: black;
+    }
+.fifthtext {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+    .fifthtext:hover {
+        color: black;
+    }
+.sixthtext {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+    .sixthtext:hover {
+        color: black;
+    }
+
+    .bookservice{
+        margin-top:10px;
+    }
+
+.bookserviceimg{
+    position:relative;
+    width:95%;
+    margin-top:33px;
+}
+.book{
+    position:absolute;
+    bottom:951px;
+    margin-left:-687px;
+    cursor:pointer;
+}
+.book:hover{
+    color:blue;
+}
+.lasticons{
+    width:10px;
+}
+.lasticonsimg{
+    width:100%;
+    height:100vh;
+}
